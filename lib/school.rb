@@ -19,7 +19,9 @@ class School
   end
   
   def sort
-    roster.amp do ||
+    roster.map do |grade, array|
+      array = array.sort
+    end
   end
 
 end

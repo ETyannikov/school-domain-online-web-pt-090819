@@ -17,5 +17,9 @@ class School
       puts name
     end
   end
+  
+  def sort
+    
+  end
 
 end

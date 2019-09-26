@@ -22,6 +22,7 @@ class School
     roster.map do |grade, array|
       roster[grade] = array.sort
     end
+    roster
   end
 
 end
